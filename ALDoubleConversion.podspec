@@ -8,9 +8,9 @@ Pod::Spec.new do |spec|
   spec.prepare_command = 'mv src double-conversion'
   spec.source = { :git => 'https://github.com/baiwhte/ALDoubleConversion.git',
                   :tag => "v#{spec.version}" }
-  spec.module_name = 'DoubleConversion'
-  spec.public_header_files = 'double-conversion/*.h'
-  spec.source_files = 'double-conversion/*.{h,cc}'
+  spec.module_name = 'ALDoubleConversion'
+  spec.public_header_files = 'ALDoubleConversion/*.h'
+  spec.source_files = 'ALDoubleConversion/*.{h,cc}'
 
   # Pinning to the same version as React.podspec.
   spec.platforms = { :ios => "8.0", :tvos => "9.2" }
